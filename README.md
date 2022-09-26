@@ -1,2 +1,5 @@
-# libglob
-BSD glob(3) implementation with non-POSIX features
+### libglob
+
+This repository contains the OpenBSD implementation of glob(3),
+with non-POSIX features like GLOB\_TILDE that are not available
+in strict POSIC C libraries (musl).
